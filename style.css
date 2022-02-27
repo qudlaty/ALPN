@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+header {
+  min-height: 715px;
+  background-image: url("/assets/header.png");
+  display: flex;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
