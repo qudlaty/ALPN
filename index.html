@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ALPN</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img src="assets/logo.svg" alt="logo">
-    <nav>
-      <ul>
-        <li> START </li>
-        <li> O LIDZE </li>
-        <li> ZAPISY </li>
-        <li> KONTAKT </li>
-      </ul>
-    </nav>
-  </header>
-  <section class="informations">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALPN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/output.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md d-flex align-items-center justify-content-around text-center">
+        <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="page logo"></a>
+        <h4 class="nav-link" href="#">EKSTRALIGA </h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-end align-content-md-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-link active" href="#">START <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">O LIDZE </a>
+            <a class="nav-link" href="#">ZAPISY </a>
+            <a class="nav-link">KONTAKT </a>
+          </div>
+        </div>
+      </nav>
+      <p class="">amatorska liga piłki nożnej</p>
+      <p class="">Runda wiosenna</p>
+      <p class="">zagraj!</p>
+      <p class="">Rozgrywki dla grup znajomych,<br>
+        firm oraz instytucji</p>
+      <input  type="submit" value="ZAPISZ SIĘ"></input>
+      <div class="mobile-bg2"></div>
+    </header>
 
-  </section>
-  <section class="signup">
-    <form action="">
-      <input type="submit" value="WYŚLIJ ZGŁOSZENIE">
-    </form>
-  </section>
-  <section class="contact-form">
-    <H3> Masz pytania skontaktuj się z nami</H3>
-    <div>
-      <span>icon</span><span> 000 000 000 </span>
-    </div>
-    <div>
-      <span>icon </span><span>@example</span>
-    </div>
-    <form action="">
-      <input type="submit" value="WYŚLIJ WIADOMOŚĆ">
-    </form>
-  </section>
-  <footer></footer>
-</body>
+    <section class="informations">
+
+
+    </section>
+    <section class="signup">
+      <form action="">
+        <input type="submit" value="WYŚLIJ ZGŁOSZENIE">
+      </form>
+    </section>
+    <section class="contact-form">
+      <H3> Masz pytania skontaktuj się z nami</H3>
+      <div class="py-3">
+        <span><img src="/assets/tel.svg" alt="telephone icon"></span><span> 000 000 000 </span>
+        <span><img src="/assets/email.svg" alt="email icon"> </span><span>ex@example.com</span>
+      </div>
+      <form action="">
+        <input class="btn btn-success" type="submit" value="WYŚLIJ WIADOMOŚĆ">
+      </form>
+    </section>
+    <footer></footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
 </html>

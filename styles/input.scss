@@ -1,0 +1,32 @@
+@import "globals";
+
+header {
+  min-height: 715px;
+  background: url("/assets/header_half.png") no-repeat fixed center;
+  text-transform: uppercase;
+  img {
+    max-height: 46px;
+  }
+  .mobile-bg2 {
+    background-image: url("/assets/players_1.png");
+    min-height: 195px;
+  }
+  input {
+    margin-left: 135px;
+  }
+}
+input {
+  background-color: $prime-color-green;
+}
+
+@media only screen and (min-width: 769px) {
+  header {
+    background-image: url("/assets/header.png");
+    h4.nav-link {
+      display: none;
+    }
+  }
+  .mobile-bg2 {
+    display: none;
+  }
+}
