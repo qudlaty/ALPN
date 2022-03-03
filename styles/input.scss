@@ -1,29 +1,33 @@
 @import "_globals.scss";
 
 header {
-  background: url("assets/header_half.jpg") no-repeat center;
+  background: url("/assets/header_half.jpg") no-repeat center;
   text-transform: uppercase;
   text-align: center;
+  min-height: 476px;
   img {
     max-height: 46px;
   }
-  .mobile-bg2 {
-    background-image: url("assets/players_1.jpg");
-    min-height: 195px;
+  .header-txt-wrap {
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: left;
   }
   input {
-    width: 270px;
-    height: 60px;
   }
 }
 input {
   background-color: $prime-color-green;
 }
+.mobile-bg2 {
+  background: url("/assets/players_1.jpg") no-repeat center;
+  min-height: 195px;
+}
 
 @media only screen and (min-width: 769px) {
   header {
     min-height: 715px;
-    background-image: url("assets/header.jpg");
+    background-image: url("/assets/header.jpg");
     .header-txt-wrap {
       margin-left: 135px;
       margin-top: 143px;
@@ -32,7 +36,12 @@ input {
     h4.nav-link {
       display: none;
     }
+    img {
+      max-height: 97px;
+    }
     input {
+      width: 270px;
+      height: 60px;
     }
   }
   .mobile-bg2 {
