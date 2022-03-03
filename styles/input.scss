@@ -1,14 +1,14 @@
 @import "_globals.scss";
 
 header {
-  background: url("/assets/header_half.jpg") no-repeat center;
+  background: url("assets/header_half.jpg") no-repeat center;
   text-transform: uppercase;
   text-align: center;
   img {
     max-height: 46px;
   }
   .mobile-bg2 {
-    background-image: url("/assets/players_1.jpg");
+    background-image: url("assets/players_1.jpg");
     min-height: 195px;
   }
   input {
@@ -23,7 +23,7 @@ input {
 @media only screen and (min-width: 769px) {
   header {
     min-height: 715px;
-    background-image: url("/assets/header.jpg");
+    background-image: url("assets/header.jpg");
     .header-txt-wrap {
       margin-left: 135px;
       margin-top: 143px;
