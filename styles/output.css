@@ -7,7 +7,7 @@
 }
 
 header {
-  background: url("/assets/header_half.jpg") no-repeat center;
+  background: url("../assets/header_half.jpg") no-repeat center;
   text-transform: uppercase;
   text-align: center;
   min-height: 476px;
@@ -20,19 +20,26 @@ header .header-txt-wrap {
   margin-left: 30px;
   text-align: left;
 }
+section {
+  text-transform: uppercase;
+}
+section div {
+  text-align: center;
+}
+
 input {
   background-color: #18b923;
 }
 
 .mobile-bg2 {
-  background: url("/assets/players_1.jpg") no-repeat center;
-  min-height: 195px;
+  background: url("../assets/players_769.jpg") no-repeat center;
+  min-height: 433px;
 }
 
 @media only screen and (min-width: 769px) {
   header {
     min-height: 715px;
-    background-image: url("/assets/header.jpg");
+    background-image: url("../assets/header.jpg");
   }
   header .header-txt-wrap {
     margin-left: 135px;

@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALPN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/output.css">
   </head>
   <body>
+    
     <header>
       <nav class="navbar navbar-expand-md navbar-light align-items-center justify-content-around text-center">
         <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="page logo"></a>
@@ -19,11 +23,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-end align-content-md-center" id="navbarNavAltMarkup">
-          <div class="navbar-nav ">
+          <div class="navbar-nav">
             <a class="nav-link active" href="#">START <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#">O LIDZE </a>
             <a class="nav-link" href="#">ZAPISY </a>
-            <a class="nav-link">KONTAKT </a>
+            <a class="nav-link" href="#">KONTAKT </a>
           </div>
         </div>
       </nav>
@@ -34,9 +38,10 @@
         <p class="">Rozgrywki dla grup znajomych,<br>
           firm oraz instytucji</p>
         <input class="btn btn-green"  type="submit" value="ZAPISZ SIĘ"></input>
-      </div> 
+      </div>
+      <div class="mobile-bg2"></div> 
     </header>
-    <div class="mobile-bg2"></div>
+    
 
     <section class="informations">
       <h4>O LIDZE</h4>
@@ -56,30 +61,88 @@
       </div>
       <img src="assets/boisko-infografika 1.svg" alt="soccer field">
       <div class="py-3 d-flex flex-column">
-        <span><img src="assets/camera.svg" alt="camera icon"></span><span>relacje foto i video</span>
+        <span><img src="./assets/camera.svg" alt="camera icon"></span><span>relacje foto i video</span>
         
-        <span><img src="assets/mobile.svg" alt="mobile icon"> </span><span>serwis internetowy<br>
+        <span><img src="./assets/mobile.svg" alt="mobile icon"> </span><span>serwis internetowy<br>
           (tabele, wyniki, statystyki)</span>
-        <span><img src="assets/trophy.svg" alt="torphy icon"> </span><span>puchary, medale i nagrody<br>
+        <span><img src="./assets/trophy.svg" alt="torphy icon"> </span><span>puchary, medale i nagrody<br>
           dla najlepszych w sezonie</span>
       </div>
+      <div>
+        <h3>boisko orlik</h3>
+        <h3>Łagów <span>ul. zapłotnia 1 </span></h3>
+        <div class="border green"></div>
+        <div class="img-green-wrap"></div>
+        <div class="img-dark-wrap"></div>
+        <div class="border dark"></div>
+      </div>
+    </section>
+    <section class="costs">
+
     </section>
     <section class="signup">
-      <form action="">
-        <input class="btn btn-green" type="submit" value="WYŚLIJ ZGŁOSZENIE">
-      </form>
+      <div class="container">
+        <h3>ZAPISY</h3>
+        <p>Poniższy formularz umożliwia zgłoszenie zespołu do rozgrywek. Skład drużyny oraz pozostałe informacje możesz uzupełnić później.
+           Wypełnij poniższe pola i prześlij zgłoszenie, a skontaktujemy się z Tobą w celu przekazania dalszych informacji.</p>
+        <form target="_blank" action="\\https://formsubmit.co/your@email.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <label></label>
+                <input type="text" name="name" class="form-control" placeholder="" required>
+              </div>
+              <div class="col">
+                <label></label>
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <label></label>
+            <input type="text" name="name" class="form-control" placeholder="" required>
+          </div>
+          <div class="col">
+            <label></label>
+            <input type="text" name="name" class="form-control" placeholder="" required>
+          </div>
+          <input class="btn btn-green" type="submit" value="WYŚLIJ ZGŁOSZENIE">
+        </form>
+      </div>
     </section>
+
     <section class="contact-form">
       <H3> Masz pytania skontaktuj się z nami</H3>
       <div class="py-3">
-        <span><img src="assets/tel.svg" alt="telephone icon"></span><span> 000 000 000 </span>
-        <span><img src="assets/email.svg" alt="email icon"> </span><span>ex@example.com</span>
+        <span><img src="./assets/tel.svg" alt="telephone icon"></span><span> 000 000 000 </span>
+        <span><img src="./assets/email.svg" alt="email icon"> </span><span>ex@example.com</span>
       </div>
-      <form action="">
-        <input class="btn btn-green" type="submit" value="WYŚLIJ WIADOMOŚĆ">
-      </form>
+      <div>
+        <form target="_blank" action="\\https://formsubmit.co/your@email.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <label></label>
+                <input type="text" name="name" class="form-control" placeholder="" required>
+              </div>
+              <div class="col">
+                <label></label>
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <input class="btn btn-green" type="submit" value="WYŚLIJ WIADOMOŚĆ">
+        </form>
+      </div>
     </section>
-    <footer></footer>
+    <footer>
+      <a href="#">Regulamin</a>
+      <a href="#">Polityka prywatności</a>
+      <img src="./assets/logo.svg" alt="logo">
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
