@@ -41,7 +41,6 @@
       </div>
       <div class="mobile-bg2"></div> 
     </header>
-    
 
     <section class="informations">
       <h4>O LIDZE</h4>
@@ -69,17 +68,36 @@
           dla najlepszych w sezonie</span>
       </div>
       <div>
-        <h3>boisko orlik</h3>
-        <h3>Łagów <span>ul. zapłotnia 1 </span></h3>
+        <p>boisko orlik</p>
+        <p>Łagów <span>ul. zapłotnia 1 </span></p>
         <div class="border green"></div>
         <div class="img-green-wrap"></div>
         <div class="img-dark-wrap"></div>
         <div class="border dark"></div>
+        <a href="#">zobacz jak dojechać</a>
       </div>
     </section>
-    <section class="costs">
 
+    <section class="costs">
+      <h3>koszt zgłoszenia drużyny</h3>
+      <p>* 1 runda - minimum 9 meczów</p>
+      <div>
+        1300 zł
+      </div>
+      <div></div>
+      <div class="list-warper"></div>
+      <ul class="">
+        <li>obsługa sędziowska i techniczna</li>
+        <li>serwis internetowy</li>
+        <li>reacje foto/video w social mediach</li>
+        <li>nagrody na koniec sezonu</li>
+        <li>dogodny terminarz</li>
+        <li>wybór “6” kolejki/sezonu</li>
+        <li>wybór piłkarza kolejki/sezonu</li>
+        <li>wybór gola kolejki/sezonu</li>
+      </ul>
     </section>
+
     <section class="signup">
       <div class="container">
         <h3>ZAPISY</h3>
@@ -87,31 +105,65 @@
            Wypełnij poniższe pola i prześlij zgłoszenie, a skontaktujemy się z Tobą w celu przekazania dalszych informacji.</p>
         <form target="_blank" action="\\https://formsubmit.co/your@email.com" method="POST">
           <div class="form-group">
-            <div class="form-row">
+            <span> Nazwa drużyny nie może być obraźliwa,
+              ani zawierać słów wulgarnych --tooltip </span>            
               <div class="col">
-                <label></label>
-                <input type="text" name="name" class="form-control" placeholder="" required>
+                <label>Nazwa drużyny * <span class="toltip"> i </span></label>
+                <input type="text" name="name" class="form-control" placeholder="FC Amigos" required> 
               </div>
               <div class="col">
-                <label></label>
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                <label>Kapitan drużyny * <span> i </span> </label>
+                <input type="email" name="email" class="form-control" placeholder="Imię Nazwisko" required>
               </div>
-            </div>
+              <div class="col">
+                <label>Telefon kontaktowy *</label>
+                <input type="text" name="name" class="form-control" placeholder="123456789" required>
+              </div>
+              <div class="col">
+                <label>Adres e-mail *</label>
+                <input type="text" name="name" class="form-control" placeholder="przykład@mail.com" required>
+              </div>
           </div>
-          <div class="col">
-            <label></label>
-            <input type="text" name="name" class="form-control" placeholder="" required>
+          <div class="terms-and-conditions">
+            <p>Warunki uczestnictwa:</p>
+            <p>1. Każdy z zawodników oraz osoba zgłaszająca, zobowiązani są do zapoznania się z Regulaminem rozgrywek Futbolowej Ligi Szóstek i do jego przestrzegania. Odpowiedzialność za dopilnowanie tego zobowiązania spoczywa na osobie, która zgłasza zespół.
+               W regulaminie znajdują się szczegółowo opisane zasady rozgrywek oraz  warunki uczestnictwa w nich. </p>
+            <p>2. Rozgrywki Ekstraligi zostaną rozpoczęte w przypadku zgłoszenia się minimum 10 drużyn oraz wpłacenia przez nie wpisowego. </p>
+            <p>3. Osoba zgłaszająca drużynę (kapitan) jest zobowiązana do uiszczenia opłaty za rozgrywki w ustalonej wysokości w terminach uzgodnionych z Organizatorem (minimum 14 dni przed rozpoczęciem rozgrywek - termin i dane do wpłaty zostaną podane Kapitanom drużyn przez Organizatora).
+            </p>
+            <p>4. Start rozgrywek zostnie ogłoszony na minimum 14 dni przed ich rozpoczęciem. 
+            </p>
+            <p>5. Organizator nie ponosi żadnej odpowiedzialności prawnej za wypadki oraz skutki wypadków podczas trwania rozgrywek.
+            </p>
+            <p>6. Organizator zastrzega sobie prawo do wykorzystania wizerunku zawodników grających w lidze dla celów marketingowych.
+            </p>
+            <p>7. Organizator nie ponosi odpowiedzialności za rzeczy pozostawione na terenie obiektów sportowych.
+            </p>
           </div>
-          <div class="col">
-            <label></label>
-            <input type="text" name="name" class="form-control" placeholder="" required>
+          <div>
+            <label for="terms">Akceptuję powyższe warunki
+              oraz regulamin rozgrywek * <span>i</span></label>
+            <input type="checkbox" name="terms">
           </div>
+          <div>
+            <label for="conditions">Zapoznałem się z polityką prywatności
+               oraz informacją o przetwarzaniu danych * <span>i</span></label>
+            <input type="checkbox" name="conditions">
+          </div>
+          
           <input class="btn btn-green" type="submit" value="WYŚLIJ ZGŁOSZENIE">
         </form>
+      </div>
+      <div class="divider">
+        <div class="line"></div>
+        <div class="circle">
+          <div class="dot"></div>
+        </div>
       </div>
     </section>
 
     <section class="contact-form">
+      <h6>Kontakt</h6>
       <H3> Masz pytania skontaktuj się z nami</H3>
       <div class="py-3">
         <span><img src="./assets/tel.svg" alt="telephone icon"></span><span> 000 000 000 </span>
@@ -120,26 +172,29 @@
       <div>
         <form target="_blank" action="\\https://formsubmit.co/your@email.com" method="POST">
           <div class="form-group">
-            <div class="form-row">
-              <div class="col">
-                <label></label>
-                <input type="text" name="name" class="form-control" placeholder="" required>
-              </div>
-              <div class="col">
-                <label></label>
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-              </div>
+            <div class="col">
+              <label>Imię Nazwisko *</label>
+              <input type="text" name="name" class="form-control" placeholder="Jan Kowalski" required>
             </div>
-          </div>
-          <div class="form-group">
-            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            <div class="col">
+              <label>Telefon kontaktowy *</label>
+              <input type="number" name="name" class="form-control" placeholder="123456789" required>
+            </div>
+            <div class="col">
+              <label>Adres e-mail *</label>
+              <input type="text" name="name" class="form-control" placeholder="przykład@mail.com" required>
+            </div>
+            <div class="col">
+              <label>Wiadomość *</label>
+              <textarea placeholder="Treść wiadomości..." class="form-control" name="message" rows="10" required></textarea>
+            </div>
           </div>
           <input class="btn btn-green" type="submit" value="WYŚLIJ WIADOMOŚĆ">
         </form>
       </div>
     </section>
     <footer>
-      <a href="#">Regulamin</a>
+      <a href="#">Regulamin</a> <span>|</span>
       <a href="#">Polityka prywatności</a>
       <img src="./assets/logo.svg" alt="logo">
     </footer>
