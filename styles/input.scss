@@ -1,10 +1,11 @@
 @import "_globals.scss";
 
 header {
-  background: url("../assets/header_half.jpg") no-repeat center;
+  background: url("../assets/hero_image_360.jpg") no-repeat center;
+  background-size: cover;
   text-transform: uppercase;
   text-align: center;
-  min-height: 476px;
+  min-height: 428px;
   img {
     max-height: 46px;
   }
@@ -13,7 +14,35 @@ header {
     margin-left: 30px;
     text-align: left;
   }
-  input {
+}
+.mobile-bg2 {
+  background: url("../assets/players_769.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 325px;
+  position: relative;
+  top: -10px;
+}
+
+.centered-img {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.costs {
+  text-align: center;
+  background: url("../assets/price_image_2.jpg") no-repeat center;
+
+  h5 {
+    padding-top: 55px;
+  }
+  ul {
+    margin: 0 auto;
+    width: 50%;
+    li {
+      ::marker {
+      }
+    }
   }
 }
 
@@ -26,11 +55,6 @@ section {
 
 input {
   background-color: $primary-color-green;
-}
-
-.mobile-bg2 {
-  background: url("../assets/players_769.jpg") no-repeat center;
-  min-height: 433px;
 }
 
 @media only screen and (min-width: 769px) {
