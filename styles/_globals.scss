@@ -2,10 +2,13 @@
 
 $primary-color-green: #18b923;
 $secondary-color-darkblue: #1c1a2e;
-$trietary-: #817d9d;
+$trietary: #817d9d;
 
 * {
   box-sizing: border-box;
+}
+body {
+  color: $secondary-color-darkblue;
 }
 
 .btn-green {

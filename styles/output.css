@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #1c1a2e;
+}
+
 .btn-green {
   background-color: #18b923;
 }
@@ -11,15 +15,34 @@ header {
   background-size: cover;
   text-transform: uppercase;
   text-align: center;
-  min-height: 428px;
+  font-weight: 800;
+  min-height: 476px;
 }
 header img {
   max-height: 46px;
 }
-header .header-txt-wrap {
+header h2 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.header-txt-wrap {
   margin-top: 60px;
   margin-left: 30px;
   text-align: left;
+}
+.header-txt-wrap input {
+  height: 60px;
+  border-radius: 0px;
+  padding: 20px;
+  min-width: 300px;
+  font-weight: 800;
+}
+.header-txt-wrap p:nth-child(3) {
+  font-size: 61px;
+}
+.header-txt-wrap p:nth-child(4) {
+  font-size: 14px;
 }
 
 .mobile-bg2 {
@@ -30,9 +53,52 @@ header .header-txt-wrap {
   top: -10px;
 }
 
+h5 {
+  font-weight: 800;
+  font-size: 10px;
+  color: white;
+  background-color: #1c1a2e;
+  width: 90px;
+  height: 19px;
+  margin-left: 20px;
+}
+
+.informations {
+  padding: 55px 39px 0 39px;
+  background: url("../assets/bramka-2.jpg") no-repeat top;
+}
+.informations > p:first-of-type {
+  text-transform: none;
+  text-align: justify;
+  line-height: 20px;
+  padding-bottom: 65px;
+}
+.informations div div {
+  text-align: left;
+  margin-left: 65px;
+  margin-bottom: 60px;
+}
+.informations div div p {
+  margin-bottom: 0;
+}
+.informations div div p,
+.informations div div span {
+  color: #18b923;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.informations div div .big-txt {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  color: #1c1a2e;
+}
+
 .centered-img {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 

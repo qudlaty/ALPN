@@ -5,16 +5,38 @@ header {
   background-size: cover;
   text-transform: uppercase;
   text-align: center;
-  min-height: 428px;
+  font-weight: 800;
+  min-height: 476px;
   img {
     max-height: 46px;
   }
-  .header-txt-wrap {
-    margin-top: 60px;
-    margin-left: 30px;
-    text-align: left;
+  h2 {
+    font-size: 13px;
+    font-weight: 700;
   }
 }
+
+.header-txt-wrap {
+  margin-top: 60px;
+  margin-left: 30px;
+  text-align: left;
+  input {
+    height: 60px;
+    border-radius: 0px;
+    padding: 20px;
+    min-width: 300px;
+    font-weight: 800;
+  }
+  p {
+    &:nth-child(3) {
+      font-size: 61px;
+    }
+    &:nth-child(4) {
+      font-size: 14px;
+    }
+  }
+}
+
 .mobile-bg2 {
   background: url("../assets/players_769.jpg") no-repeat center;
   background-size: cover;
@@ -23,16 +45,64 @@ header {
   top: -10px;
 }
 
+h5 {
+  font-weight: 800;
+  font-size: 10px;
+  color: white;
+  background-color: $secondary-color-darkblue;
+  width: 90px;
+  height: 19px;
+  margin-left: 20px;
+
+  // -webkit-transform: skew(-30deg);
+  // -moz-transform: skew(-30deg);
+  // -o-transform: skew(-30deg);
+  // transform: skew(-30deg); make trapezoid aka Parallelogram - mayby better use img as bg
+}
+.informations {
+  padding: 55px 39px 0 39px;
+  background: url("../assets/bramka-2.jpg") no-repeat top;
+  > p:first-of-type {
+    text-transform: none;
+    text-align: justify;
+    line-height: 20px;
+    padding-bottom: 65px;
+  }
+  div {
+    div {
+      text-align: left;
+      margin-left: 65px;
+      margin-bottom: 60px;
+      p {
+        margin-bottom: 0;
+      }
+      p,
+      span {
+        color: $primary-color-green;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+      }
+      .big-txt {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 130%;
+        color: $secondary-color-darkblue;
+      }
+    }
+  }
+}
+
 .centered-img {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .costs {
   text-align: center;
   background: url("../assets/price_image_2.jpg") no-repeat center;
-
   h5 {
     padding-top: 55px;
   }
